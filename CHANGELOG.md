@@ -1,5 +1,23 @@
 # skuba
 
+## 3.15.3
+
+### Patch Changes
+
+- **template:** seek-jobs/gantry v1.5.2 ([#634](https://github.com/seek-oss/skuba/pull/634))
+
+- **deps:** typescript 4.4.4 ([#616](https://github.com/seek-oss/skuba/pull/616))
+
+- **deps:** Relax ranges ([#622](https://github.com/seek-oss/skuba/pull/622))
+
+  Projects can now upgrade to new Prettier and TypeScript patches and `ts-node-dev` minors without us having to cut a new release.
+
+- **deps:** eslint-config-skuba 1.0.12 ([#623](https://github.com/seek-oss/skuba/pull/623))
+
+- **template/lambda-sqs-worker:** Remove `pino.Logger` indirection ([#624](https://github.com/seek-oss/skuba/pull/624))
+
+- **template:** @seek/logger ^5.0.0 ([#621](https://github.com/seek-oss/skuba/pull/621))
+
 ## 3.15.2
 
 ### Patch Changes
